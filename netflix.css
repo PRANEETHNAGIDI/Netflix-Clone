@@ -1,0 +1,228 @@
+* {
+    font-family: Netflix Sans, Helvetica, sans-serif;
+
+}
+
+body {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    margin-left: 0;
+    padding-left: 0;
+    background-size: 100%;
+    background-color: #000000;
+
+
+}
+
+#logo {
+    margin-left: 5%;
+}
+
+.lang {
+    border: 2px double rgb(123, 119, 119);
+    width: 150px;
+    border-radius: 7px;
+    color: inherit;
+    position: absolute;
+    top: 30px;
+    left: 1100px;
+
+
+}
+
+#language {
+    width: 110px;
+    background-color: inherit;
+    border: 0;
+    font-size: 22px;
+    color: white;
+}
+
+#languafe:hover {
+    color: black;
+}
+
+img {
+    margin-left: 5px;
+
+
+}
+
+.backimg {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.8) 100%), url(https://assets.nflxext.com/ffe/siteui/vlv3/b85863b0-0609-4dba-8fe8-d0370b25b9ee/fdf508c8-97d0-42fd-a6f9-9bef6bf96934/IN-en-20230731-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+
+
+}
+
+#sgin {
+    width: 80px;
+    height: 35px;
+    background-color: #E50914;
+    color: white;
+    border: 0;
+    position: absolute;
+    margin-left: 970px;
+    margin-top: 22px;
+    border-radius: 5px;
+}
+
+#sgin:hover {
+    background-color: #ff0505;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 48px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 0;
+
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#email {
+    padding: 24px 16px 16px;
+    width: 350px;
+    background-color: inherit;
+    border: 2px solid rgb(123, 119, 119);
+    color: rgb(192, 193, 193);
+    margin-left: 475px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+#get {
+    width: 80px;
+    height: 35px;
+    background-color: #E50914;
+    color: aliceblue;
+    width: 200px;
+    height: 60px;
+    border: #E50914;
+    border-radius: 8px;
+    padding-top: 0;
+    position: absolute;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+#get:hover {
+    background-color: #e91010;
+    font-size: 24px;
+    transition-duration: 55ms;
+    cursor: pointer;
+
+}
+
+.cont {
+    align-items: center;
+    align-content: center;
+}
+
+.contaner1 {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.movie {
+    background-color: #ff0505;
+    margin: 0px 8px 10px 8px;
+    border-radius: 5px;
+    background-size: cover;
+    width: 230px;
+    height: 300px;
+}
+.movie:hover{
+    cursor: pointer;
+    width: 250px;
+    transition-timing-function:ease-out;
+    transition-duration: 0.4s;
+    color: coral;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+#head {
+    text-align: left;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.moviehead {
+    color: rgb(104, 56, 56);
+    font-size: 20px;
+    text-align: left;
+    margin: 0 0 0 2px;
+    padding: 0;
+
+}
+
+#view{
+    margin-left: 1150px;
+}
+.watch{
+    background-color: #E50914;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 220px;
+    height: 35px;
+}
+#Acontent {
+    background-color: #E50914;
+    width: 520px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+
+}
+#Acontent:hover{
+    cursor: pointer;
+    background-color: rgb(16, 27, 230);
+    color: white;
+    width: 520px ;
+    font-size: 20px;
+
+    
+
+}
+#A18{
+    margin: 30px 0 0 500px;
+        
+}
+#footer{
+    background-color: #181515;
+    font-size: 16px;
+    height: 100px;
+    text-align: left;
+}
+@media (max-width: 600px) {
+.movie{
+    width: 150px;
+}
+    
+  }
